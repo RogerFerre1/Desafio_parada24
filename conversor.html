@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Conversor de temperatura</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/termometro.css">
+        <script src="js/conversor.js" defer></script>
+    </head>
+
+    <body>
+
+        <div id="container">
+
+            <div id="box">
+                <h1>Conversor de temperatura</h1>
+                <input type="number" placeholder="Celsius ºC" id="valor1">
+                <select id="graus">
+                    <option value="fah">Farenheit </option>
+                    <option value="kel">Kelvin</option>
+                </select>
+                <input type="submit" value="Converter" onclick="conversor()">
+        
+                <input type="number" placeholder="Resultado" id="valor2">
+        
+                
+                <div id="resp"></div>
+            </div>
+
+            <div class="logo">
+                <div class="bar"></div>
+                <div class="circle"></div>
+            </div>
+            
+        </div>
+           
+       
+    </body>
+</html>

@@ -1,0 +1,42 @@
+body{
+    background-color: #60bfdf;
+    
+}
+
+#container{
+}
+
+#box{
+    margin: auto;
+    width: 25%;
+    height: 50px;
+    display: grid;
+}
+
+#box h1{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+input, select, submit{
+    border-radius: 30px;
+    padding: 10px;
+    margin: 5px;
+}
+
+submit{
+    color: rgb(3, 3, 175);
+}
+
+#resp{
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 30px;
+    text-align: center;
+    padding: 18px;
+    margin: 5px;
+    position: relative;
+    bottom: 48.5px;
+}
